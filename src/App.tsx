@@ -80,16 +80,16 @@ export default function App() {
 
         <motion.div 
           {...fadeIn}
-          className="relative z-10 w-full max-w-[414px] mx-6"
+          className="relative z-10 w-full max-w-[331px] mx-6"
         >
-          <div className="bg-brand-parchment/40 backdrop-blur-xl aspect-square flex flex-col items-center justify-center p-8 md:p-12 text-center border border-white/30 rounded-sm">
-            <h1 className="text-3xl md:text-[98px] font-['Times_New_Roman',_serif] text-brand-green mb-4 leading-[0.94]">
+          <div className="bg-brand-parchment/40 backdrop-blur-xl aspect-square flex flex-col items-center justify-center p-[23px] text-center border border-white/30 rounded-sm">
+            <h1 className="text-[61px] font-['Times_New_Roman',_serif] text-brand-green mb-4 leading-[0.94]">
               Maison<br />Bloom
             </h1>
-            <p className="text-[18px] font-sans text-brand-green/80 mb-10 tracking-tight">
+            <p className="text-[14px] font-sans text-[#545454] mb-10 tracking-tight">
               가장 아름다운 순간을 위한 꽃
             </p>
-            <button className="bg-brand-green text-brand-parchment px-12 py-4 text-[16px] tracking-widest font-medium hover:bg-opacity-90 transition-all rounded-sm shadow-xl">
+            <button className="bg-brand-green text-brand-parchment px-[38px] py-[13px] text-[13px] tracking-widest font-medium hover:bg-opacity-90 transition-all rounded-sm shadow-xl">
               꽃다발 예약하기
             </button>
           </div>
@@ -105,10 +105,10 @@ export default function App() {
                 꽃 한 송이에도<br />감정을 담습니다
               </h2>
               <div className="w-12 h-px bg-brand-green/30 mb-8" />
-              <p className="text-[19px] font-mapo text-brand-green/80 leading-snug tracking-[-1px] mb-6">
+              <p className="text-[18px] font-mapo text-brand-green/80 leading-snug tracking-[-1px] mb-6">
                 메종블룸은 단순히 꽃을 판매하는 공간이 아닙니다. 누군가의 축하, 위로, 사랑, 감사의 마음을 꽃으로 전하는 플라워 브랜드입니다.
               </p>
-              <p className="text-[19px] font-mapo text-brand-green/80 leading-snug tracking-[-1px]">
+              <p className="text-[18px] font-mapo text-brand-green/80 leading-snug tracking-[-1px]">
                 유럽풍 빈티지 감성과 섬세한 플라워 스타일링을 바탕으로, 계절마다 가장 아름다운 꽃을 엄선하여 당신만의 특별한 꽃다발을 완성합니다.
                 <br /><br />
                 당신의 소중한 순간이 오래 기억될 수 있도록, 메종블룸은 꽃 이상의 감동을 전합니다.
@@ -124,7 +124,7 @@ export default function App() {
           >
             <div className="aspect-[4/5] overflow-hidden rounded-sm group">
               <img 
-                src="https://images.pexels.com/photos/17635083/pexels-photo-17635083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                src="https://postfiles.pstatic.net/MjAyNjA0MThfMjUg/MDAxNzc2NTAzMDI4ODA0.2tD2ZG4iiECWYb-C4nUyxZLMfrLxhdnGEYjzYkoTBfEg.WJLb-QAvaaKhw6tNun6wY14dYsoSafqxhD--65toJNIg.JPEG/SE-2c7f110c-1092-4297-ba38-9f9fbf3b6050.jpg?type=w966" 
                 alt="Our Atelier" 
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -133,7 +133,7 @@ export default function App() {
             {/* Small accent image */}
             <div className="absolute -bottom-10 -left-10 w-1/2 aspect-square hidden lg:block border-[12px] border-brand-parchment shadow-2xl overflow-hidden rounded-sm">
               <img 
-                src="https://images.unsplash.com/photo-1626161290912-d415a83683fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fCVFQSVCRCU4MyVFQiU4QiVBNCVFQiVCMCU5QyUyMCVFRCU5NSU5MSVFRCU4MSVBQ3xlbnwwfHwwfHx8MA%3D%3D" 
+                src="https://postfiles.pstatic.net/MjAyNjA0MThfMjE0/MDAxNzc2NTAzNjAzNzc5.1O2QrCwIPVDkX5xJRb8j7odsuH4y6lYON1AIUGNqjJgg.LMliMIaKHSYRsKlHWf1MtXPEx0IjCV-FTCakagcS9u4g.JPEG/SE-d671266f-d699-4d36-8424-9c11f2b4ea85.jpg?type=w966" 
                 alt="Tools" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -224,7 +224,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 mb-20 text-center">
           <motion.div {...fadeIn}>
             <span className="text-xs uppercase tracking-[0.3em] font-medium text-brand-green/60 mb-4 block">Client Stories</span>
-            <h2 className="text-4xl md:text-5xl font-kopub text-brand-green mb-6">메종블룸과 함께한 소중한 기록들</h2>
+            <h2 className="text-[35px] font-kopub text-brand-green mb-6 leading-[1.3]">메종블룸과 함께한 소중한 기록들</h2>
             <div className="w-16 h-px bg-brand-green/20 mx-auto" />
           </motion.div>
         </div>
@@ -333,9 +333,11 @@ export default function App() {
 
         <div className="relative z-10 max-w-3xl mx-auto text-center">
           <motion.div {...fadeIn}>
-            <h2 className="text-4xl md:text-6xl font-serif text-brand-green mb-8">당신의 순간을 더 아름답게 만들어보세요</h2>
+            <h2 className="text-[34px] font-serif text-brand-green mb-8 leading-[1.3]">
+              당신의 순간을 더 아름답게<br />만들어보세요
+            </h2>
             <p className="text-lg md:text-xl text-brand-green/70 leading-relaxed mb-12">
-              꽃다발 예약부터 플라워 클래스,<br />웨딩 플라워까지 메종블룸과 함께 가장 특별한 순간을 준비해보세요.
+              꽃다발 예약부터<br />플라워 클래스,<br />웨딩 플라워까지<br />메종블룸과 함께<br />가장 특별한 순간을 준비해보세요.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <button className="bg-brand-green text-brand-parchment px-12 py-5 text-[16px] tracking-widest font-medium hover:bg-opacity-90 transition-all rounded-sm shadow-xl">
