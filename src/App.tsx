@@ -336,7 +336,7 @@ export default function App() {
             <h2 className="text-[34px] font-serif text-brand-green mb-8 leading-[1.3]">
               당신의 순간을 더 아름답게<br />만들어보세요
             </h2>
-            <p className="text-lg md:text-xl text-brand-green/70 leading-relaxed mb-12">
+            <p className="text-lg md:text-xl text-brand-green/70 leading-[2.2] mb-12">
               꽃다발 예약부터<br />플라워 클래스,<br />웨딩 플라워까지<br />메종블룸과 함께<br />가장 특별한 순간을 준비해보세요.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
