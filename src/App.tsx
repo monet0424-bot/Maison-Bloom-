@@ -80,16 +80,16 @@ export default function App() {
 
         <motion.div 
           {...fadeIn}
-          className="relative z-10 w-full max-w-[331px] mx-6"
+          className="relative z-10 w-full max-w-[490px] mx-6"
         >
-          <div className="bg-brand-parchment/40 backdrop-blur-xl aspect-square flex flex-col items-center justify-center p-[23px] text-center border border-white/30 rounded-sm">
-            <h1 className="text-[61px] font-['Times_New_Roman',_serif] text-brand-green mb-4 leading-[0.94]">
+          <div className="bg-brand-parchment/40 backdrop-blur-xl aspect-square flex flex-col items-center justify-center p-[28px] text-center border border-white/30 rounded-sm">
+            <h1 className="text-[90px] font-['Times_New_Roman',_serif] text-brand-green mb-[20px] leading-[0.94] tracking-[2px]">
               Maison<br />Bloom
             </h1>
-            <p className="text-[14px] font-sans text-[#545454] mb-10 tracking-tight">
+            <p className="text-[17px] font-sans text-[#545454] mb-[48px] tracking-[2px]">
               가장 아름다운 순간을 위한 꽃
             </p>
-            <button className="bg-brand-green text-brand-parchment px-[38px] py-[13px] text-[13px] tracking-widest font-medium hover:bg-opacity-90 transition-all rounded-sm shadow-xl">
+            <button className="bg-brand-green text-brand-parchment px-[46px] py-[16px] text-[16px] tracking-widest font-medium hover:bg-opacity-90 transition-all rounded-sm shadow-xl">
               꽃다발 예약하기
             </button>
           </div>
@@ -105,10 +105,10 @@ export default function App() {
                 꽃 한 송이에도<br />감정을 담습니다
               </h2>
               <div className="w-12 h-px bg-brand-green/30 mb-8" />
-              <p className="text-[18px] font-mapo text-brand-green/80 leading-snug tracking-[-1px] mb-6">
+              <p className="text-[18px] font-kopub text-brand-green/80 leading-[1.8] tracking-[1px] mb-6">
                 메종블룸은 단순히 꽃을 판매하는 공간이 아닙니다. 누군가의 축하, 위로, 사랑, 감사의 마음을 꽃으로 전하는 플라워 브랜드입니다.
               </p>
-              <p className="text-[18px] font-mapo text-brand-green/80 leading-snug tracking-[-1px]">
+              <p className="text-[18px] font-kopub text-brand-green/80 leading-[1.8] tracking-[1px]">
                 유럽풍 빈티지 감성과 섬세한 플라워 스타일링을 바탕으로, 계절마다 가장 아름다운 꽃을 엄선하여 당신만의 특별한 꽃다발을 완성합니다.
                 <br /><br />
                 당신의 소중한 순간이 오래 기억될 수 있도록, 메종블룸은 꽃 이상의 감동을 전합니다.
