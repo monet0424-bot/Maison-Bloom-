@@ -322,7 +322,7 @@ export default function App() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://postfiles.pstatic.net/MjAyNjA0MThfMTA2/MDAxNzc2NDg4OTQ1Nzk2.qpIDEUGqgmlVOyR9wggIyzVPdP4OcgIdluofto53s7Yg.46rMv5s4XRfhX1ws_CvATu_9CmvFUYnsKfa6xd8BjZwg.JPEG/SE-30d7681c-47b0-46fc-8059-a38af471b21e.jpg?type=w966" 
+            src="https://postfiles.pstatic.net/MjAyNjA0MTlfMTY2/MDAxNzc2NTU4NjI4MTQ4.91cARCWLt34L5EGbS80BB64q8ATynRF5t9rnD_f8zFAg.e1FVewvFQSEK2NVFLNcpodjqnoRvVUw7uwBxujMxYB8g.JPEG/gift-boxes-roses-white-textured-background-space-text.jpg?type=w966" 
             alt="Maison Bloom atmosphere background"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
