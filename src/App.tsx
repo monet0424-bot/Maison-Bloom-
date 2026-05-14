@@ -63,9 +63,9 @@ export default function App() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <motion.img 
-            src="https://postfiles.pstatic.net/MjAyNjA0MThfMTYz/MDAxNzc2NDc4NzE2ODM5.wyl4hcikfCdIPiaKv5b_BQG_4sDyVcXgvQP9HNWa8XMg.BboBCPmVrk9OAvteiEBYkMfaZhyi5zRrGC-Lo9q_QXQg.JPEG/celebrating-womens-health-with-vibrant-bouquet-flowers-ribbons-soft-pink-bac.jpg?type=w966" 
+            src="https://postfiles.pstatic.net/MjAyNjA1MTVfMTE2/MDAxNzc4Nzk4NDY4NjUx._vZ9hN4eRzC47ycfPgbkI3QPltiMpoOuTAeNxN2REDgg.o8B4clfkYH123NPB0nHB2SdJvo04MEmadrzYSxRPPrAg.JPEG/pink-rose-flowers-gift-box-with-ribbons.jpg?type=w3840" 
             alt="Floral background"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover contrast-[1.05] saturate-[1.05] brightness-[1.02]"
             referrerPolicy="no-referrer"
             animate={{ scale: [1, 1.1] }}
             transition={{ 
@@ -75,7 +75,7 @@ export default function App() {
               ease: "linear" 
             }}
           />
-          <div className="absolute inset-0 bg-brand-parchment/20" />
+          {/* Removed overlay for maximum clarity as requested */}
         </div>
 
         <motion.div 
@@ -105,10 +105,10 @@ export default function App() {
                 꽃 한 송이에도<br />감정을 담습니다
               </h2>
               <div className="w-12 h-px bg-brand-green/30 mb-8" />
-              <p className="text-[18px] font-kopub text-brand-green/80 leading-[1.8] tracking-[1px] mb-6">
+              <p className="text-[17px] font-sans text-brand-green/80 leading-[29.6px] tracking-[1px] mb-6">
                 메종블룸은 단순히 꽃을 판매하는 공간이 아닙니다. 누군가의 축하, 위로, 사랑, 감사의 마음을 꽃으로 전하는 플라워 브랜드입니다.
               </p>
-              <p className="text-[18px] font-kopub text-brand-green/80 leading-[1.8] tracking-[1px]">
+              <p className="text-[17px] font-sans text-brand-green/80 leading-[32.2px] tracking-[1px]">
                 유럽풍 빈티지 감성과 섬세한 플라워 스타일링을 바탕으로, 계절마다 가장 아름다운 꽃을 엄선하여 당신만의 특별한 꽃다발을 완성합니다.
                 <br /><br />
                 당신의 소중한 순간이 오래 기억될 수 있도록, 메종블룸은 꽃 이상의 감동을 전합니다.
@@ -304,7 +304,7 @@ export default function App() {
                 className="bg-white p-10 rounded-sm border border-brand-stone w-[400px] shrink-0 group relative"
               >
                 <Quote size={32} className="text-brand-green/10 mb-8 group-hover:text-brand-green/20 transition-colors" strokeWidth={1} />
-                <p className="text-brand-green/80 leading-relaxed mb-10 min-h-[100px] text-lg font-kopub">
+                <p className="text-brand-green/80 leading-relaxed mb-10 min-h-[100px] text-lg font-sans">
                   "{review.text}"
                 </p>
                 <div className="flex items-center justify-between border-t border-brand-stone pt-6">
@@ -318,19 +318,7 @@ export default function App() {
       </section>
 
       {/* CTA Section */}
-      <section id="reserve" className="relative py-32 md:py-48 px-6 overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <img 
-            src="https://postfiles.pstatic.net/MjAyNjA0MTlfMTY2/MDAxNzc2NTU4NjI4MTQ4.91cARCWLt34L5EGbS80BB64q8ATynRF5t9rnD_f8zFAg.e1FVewvFQSEK2NVFLNcpodjqnoRvVUw7uwBxujMxYB8g.JPEG/gift-boxes-roses-white-textured-background-space-text.jpg?type=w966" 
-            alt="Maison Bloom atmosphere background"
-            className="w-full h-full object-cover"
-            referrerPolicy="no-referrer"
-          />
-          {/* Overlay for text legibility - set to 80% opacity as requested */}
-          <div className="absolute inset-0 bg-white/80" />
-        </div>
-
+      <section id="reserve" className="relative py-32 md:py-48 px-6 overflow-hidden bg-brand-parchment">
         <div className="relative z-10 max-w-3xl mx-auto text-center">
           <motion.div {...fadeIn}>
             <h2 className="text-[34px] font-serif text-brand-green mb-8 leading-[1.3]">
