@@ -82,11 +82,11 @@ export default function App() {
           {...fadeIn}
           className="relative z-10 w-full max-w-[490px] mx-6"
         >
-          <div className="md:bg-brand-parchment/40 md:backdrop-blur-xl aspect-square flex flex-col items-center justify-center p-[28px] text-center md:border md:border-white/30 md:rounded-sm">
-            <h1 className="text-[81px] md:text-[90px] font-['Times_New_Roman',_serif] text-white md:text-brand-green mb-[18px] md:mb-[20px] leading-[0.94] tracking-[2px]">
+          <div className="md:bg-brand-parchment/80 md:backdrop-blur-xl aspect-square flex flex-col items-center justify-center p-[28px] text-center md:border md:border-white/30 md:rounded-sm">
+            <h1 className="text-[81px] md:text-[90px] font-['Times_New_Roman',_serif] text-white md:text-brand-green mb-[18px] md:mb-[20px] leading-[0.94] tracking-[2px] drop-shadow-[0_2px_6px_rgba(0,0,0,0.2)] [text-shadow:0_1px_4px_rgba(0,0,0,0.2)] md:drop-shadow-none md:[text-shadow:none]">
               Maison<br />Bloom
             </h1>
-            <p className="text-[15px] md:text-[17px] font-sans text-white/90 md:text-[#545454] mb-[43px] md:mb-[48px] tracking-[2px]">
+            <p className="text-[15px] md:text-[17px] font-sans text-white/90 md:text-[#545454] mb-[43px] md:mb-[48px] tracking-[2px] drop-shadow-[0_1px_4px_rgba(0,0,0,0.2)] [text-shadow:0_1px_3px_rgba(0,0,0,0.2)] md:drop-shadow-none md:[text-shadow:none]">
               가장 아름다운 순간을 위한 꽃
             </p>
             <button className="bg-brand-green text-brand-parchment px-[41px] py-[14px] md:px-[46px] md:py-[16px] text-[14px] md:text-[16px] tracking-widest font-medium hover:bg-opacity-90 transition-all rounded-sm shadow-xl">
